@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Right to left scrolling background" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <com.sample.erebus.erebusengine.SideScrolling.ScrollingImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                scrolling_image_view:speed="1dp"
+                scrolling_image_view:src="@drawable/scrolling_background" />
+
+            <com.sample.erebus.erebusengine.SideScrolling.ScrollingImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                scrolling_image_view:speed="1.9dp"
+                scrolling_image_view:src="@drawable/scrolling_foreground" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:src="@drawable/van" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
