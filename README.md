@@ -11,7 +11,7 @@ application with one or two lines of code.
  * Good performace under high load.
  * Supports many widely used JAVA integrated development environments (Android Studio, Eclipse, Netbeans)
 
- ![ScreenShot](https://raw.githubusercontent.com/ErebusEngine/ErebusGameEngine2D/blob/master/sample_image.PNG)
+ ![ScreenShot](https://raw.githubusercontent.com/ErebusEngine/ErebusGameEngine2D/master/sample_image.PNG)
 
 
  Usage:
