@@ -11,7 +11,7 @@ application with one or two lines of code.
  * Good performace under high load.
  * Supports many widely used JAVA integrated development environments (Android Studio, Eclipse, Netbeans)
 
- ![alt text](sample_image.png)
+ ![Screenshot](sample_image.png)
 
  Usage:
 ========
