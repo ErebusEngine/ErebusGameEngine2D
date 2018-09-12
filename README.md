@@ -1,5 +1,3 @@
-# ErebusGameEngine2D
-
 Erebus2D Engine
 ==================
 
